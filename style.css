@@ -1,0 +1,834 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+/* estilo da fonte*/
+
+@font-face{
+    font-family: 'stardew';
+    src:url("Stardew_Valley.ttf") format(truetype), 
+    url("Stardew_Valley.otf") format(opentype);
+
+}
+.nav{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding:10px;
+    background-color: rgb(206, 188, 88);
+    font-family:'stardew', Times, serif;
+    font-size: 200%;
+    border-radius: 5px;
+
+
+}
+
+/*Links na Nav*/
+.href{
+    color:white;
+    text-decoration: none;
+    padding: 10px;
+
+}
+.hrefe{
+    color:white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+/* estilização da nav */
+
+.nav .href:not(last-child) {
+    border-right:  rgb(255, 255, 255) 1px solid ;
+  }
+.nav .hrefe:not(first-child){
+        border-left:  rgb(255, 255, 255) 1px solid ;
+        border-right:  rgb(255, 255, 255) 1px solid ;
+}
+
+
+/* Header */
+
+.titulo_png{
+
+    max-width: 20%;
+    min-width: 20%;
+    border-radius: 10px;
+    background-color: rgb(115, 203, 75);
+    padding: 5px 5px;
+    margin-bottom: 0.5%;
+
+}
+.titulo_peixe{
+    display: flex;
+    max-width: 15%;
+    min-width: 15%;
+    margin-right:100px;
+    border-radius: 10px;
+    background-color: rgb(115, 203, 75);
+    padding: 5px 5px;
+
+}
+
+.titulo_gif{
+    display: flex;
+    max-width: 15%;
+    min-width: 15%;
+    margin-left:160px;
+    border-radius: 10px;
+    background-color:  rgb(115, 203, 75);
+    padding: 5px 5px;
+
+}
+
+/*background-color: rgb(129, 76, 45);*/
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  #28cc43;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.div1{
+
+display: flex;
+align-items: center;
+margin-left: 10%;
+margin-top: 5%;
+}
+
+/* Body */  
+.body1{
+    margin:0;
+    padding: 0;
+    background-image: url(imagens/background.jpg);
+    background-size:100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+/*background-image: url(https://wallpaperaccess.com/full/1547800.png);*/
+.body2{
+    margin:0;
+    padding: 0;
+    background-image: url(https://wallpaperaccess.com/full/1547800.png);
+    background-size:100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+/*botão de descrição do jogo*/
+.botao {
+    background-color: #28cc43;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    left: 55%;
+    bottom:44%;
+    font-family: "stardew";
+    font-size: 45px;
+    border-radius: 10px;
+    transition: all 300ms ease-out;
+    width:300px;
+    height: 70px;
+}
+button:hover {
+    width:315px ;
+    height: 4.5rem;
+}
+
+.href:hover{
+    height:40px;
+}
+.hrefe:hover{
+    height:40px;
+}
+
+.texto_botao {
+    display: none;
+    margin-top: 10px;
+    background-color: rgb(42, 41, 41);
+    color:aliceblue;
+    position: absolute;
+    left: 55%;
+    bottom:10%;
+    max-width: 400px;
+    font-size: 18px;
+    font-family: "Arial";
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.suave {
+    animation: fadeIn ease 1s;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+/*lista dos animais*/
+.tbody{
+    background-color: white;
+    opacity: 0.9;
+    padding-left: 10px;
+    padding: 15px;
+}
+
+.table{
+    font-family: "arial";
+    font-size: 20px;
+    margin-top: 5%;
+    margin-left: 4%;
+    margin-right: 8.5%;
+    margin-bottom: 5%;
+}
+.table1{
+    font-family: "arial";
+    font-size: 20px;
+    margin-top: 5%;
+    margin-left: 32%;
+    margin-bottom: 5%;
+}
+.animais{
+    background-color: white;
+    opacity: 1;
+    padding-left: 5px;
+}
+.thead1{
+    background-color: #28cc43;
+    font-size: 25px;
+}
+
+.domestico{
+    background-color: rgb(223, 216, 26);
+    font-family: "arial";
+    max-width: 25%;
+    margin-left: 35%;
+    margin-top: 5%;
+    padding-left: 30px;
+    border-radius: 10px;
+    margin-bottom: 1%;
+}
+
+.cavalo{
+    margin-left: 50%;
+}
+/*background-color: rgba(41, 49, 55, 0.1);*/
+/*background-color: rgb(253, 253, 253,0.6);*/
+.div2{
+    margin:10%;
+    display:grid;
+    align-items: center;
+    justify-content: center;
+    padding-right: 20%;
+    margin-bottom: 2%;
+    margin-top:1%;
+}
+.title1{
+    background-color:rgb(207, 126, 190);
+    font-family: "Arial";
+    max-width: 25%;
+    margin-left: 51%;
+    margin-top: 5%;
+    padding-left: 25px;
+    border-radius: 10px;
+    margin-bottom: 1%;
+    font-size: 30px;
+}
+.title2{
+    background-color:rgb(238, 230, 78);
+    font-family: "Arial";
+    max-width: 25%;
+    margin-left: 51%;
+    margin-top: 5%;
+    padding-left: 10px;
+    padding-left: 25px;
+    margin-bottom: 1%;
+    font-size: 30px;
+    border-radius: 10px;
+}
+.title4{
+    background-color:rgb(240, 156, 53);
+    font-family: "Arial";
+    max-width: 25%;
+    margin-left: 51%;
+    margin-top: 5%;
+    padding-left: 25px;
+    border-radius: 10px;
+    margin-bottom: 1%;
+    font-size: 30px;
+}
+.title3{
+    background-color:rgb(77, 226, 117);
+    font-family: "Arial";
+    max-width: 35%;
+    font-size: 50px;
+    margin-left: 45%;
+    margin-top: 5%;
+    padding-left: 30px;
+    border-radius: 10px;
+    margin-bottom: 1%;
+}
+.title5{
+    background-color:rgb(67, 129, 227);
+    font-family: "Arial";
+    max-width: 25%;
+    margin-left: 51%;
+    margin-top: 5%;
+    padding-left: 25px;
+    border-radius: 10px;
+    margin-bottom: 1%;
+    font-size: 30px;
+}
+
+.p1{
+    margin-left: 31%;
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 20px;
+    border-color: rgb(255, 255, 0);
+    border-style:double;
+    border-radius: 5px;
+    margin-top: 5%;
+    padding-left: 5%;
+    margin-bottom: 10%;
+
+
+}
+.p2{
+    background-color:rgb(37, 178, 75);
+    font-family: "Stardew";
+    max-width: 10%;
+    color:white;
+    padding-right: 10px;
+    font-size: 50px;
+    margin-left: 43%;
+    margin-top: 5%;
+    padding-left: 10px;
+    border-radius: 10px;
+    margin-bottom: 1%;
+}
+.p3{
+    height: 20%;
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 20px;
+    border-color: rgb(255, 255, 0);
+    border-style:double;
+    border-radius: 5px;
+    margin-top: 5%;
+    padding-left: 5%;
+    margin-bottom: 10%;
+    max-width: 40%;
+    padding-right: 5%;
+    margin-left: 25%;
+}
+.p4{
+    background-color:#28cc43;
+    font-family: "Stardew";
+    position: absolute;
+    max-width: 30%;
+    color:white;
+    padding-right: 10px;
+    font-size: 45px;
+    left: 48%;
+    font-weight: 100;
+    margin-top: 6%;
+    padding-left: 10px;
+    border-radius: 10px;
+    margin-bottom: 1%;
+}
+
+.p5{
+    position: absolute;
+    left: 10%;
+    min-width: 20%;
+    top:60%;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 20px;
+    border-color: rgb(255, 255, 0);
+    border-style:double;
+    border-radius: 5px;
+    height: 20%;
+    right: 10%;
+
+}
+
+
+/*Titulo dos eventos*/
+.primavera{
+    background-color:pink;
+    font-family: "Arial";
+    max-width: 25%;
+    margin-left: 35%;
+
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    margin-bottom: 1%;
+}
+.verao{
+    margin-top:8%;
+    background-color:rgb(234, 231, 74);
+    font-family: "Arial";
+    max-width: 25%;
+    margin-left: 35%;
+    padding-left: 4%;
+    border-radius: 10px;
+    margin-bottom: 1%;
+}
+
+.outono{
+    margin-top:8%;
+    background-color:rgb(241, 161, 49);
+    font-family: "Arial";
+    max-width: 25%;
+    margin-left: 35%;
+    padding-left: 4%;
+    border-radius: 10px;
+    margin-bottom: 1%;
+}
+
+.inverno{
+    margin-top:8%;
+    background-color:rgb(32, 113, 220);
+    font-family: "Arial";
+    max-width: 25%;
+    margin-left: 35%;
+    padding-left: 4%;
+    border-radius: 10px;
+    margin-bottom: 1%;
+}
+/**/
+
+.foto1{
+    width: 35;
+    margin-left:32%;
+    margin-top:5%;
+    margin-bottom: 5%;
+    border-radius: 5px;
+}
+.foto2{
+    width: 34%;
+    height: 100%;
+    margin-bottom: 2%;
+    margin-left:32%;
+    border-radius: 5px;
+
+
+}
+
+.foto1_text {
+    display: none;
+    margin-left: 33.5%;
+    background-color: rgb(42, 41, 41);
+    color:aliceblue;
+    bottom:10%;
+    max-width: 400px;
+    font-size: 18px;
+    font-family: "Arial";
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 5%;
+}
+
+
+.foto2_text {
+    display: none;
+    margin-left: 33.5%;
+    background-color: rgb(42, 41, 41);
+    color:aliceblue;
+    bottom:10%;
+    max-width: 400px;
+    font-size: 18px;
+    font-family: "Arial";
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 5%;
+}
+
+.foto1:hover {
+    width:33% ;
+    height: 33%;
+}
+.foto2:hover{
+    width:33.5%;
+    height: 99.5%;
+}
+
+.foto3{
+    width: 35;
+    margin-left:32%;
+    margin-top:5%;
+    margin-bottom: 5%;
+    border-radius: 5px;
+}
+
+.foto4{
+    width: 35;
+    margin-left:32%;
+    margin-top:5%;
+    margin-bottom: 5%;
+    border-radius: 5px;
+}
+.foto5{
+    width: 35;
+    margin-left:32%;
+    margin-top:5%;
+    margin-bottom: 5%;
+    border-radius: 5px;
+
+}
+.foto6{
+    width: 35;
+    margin-left:32%;
+    margin-top:5%;
+    margin-bottom: 5%;
+    border-radius: 5px;
+
+}
+.foto7{
+    width: 35;
+    margin-left:32%;
+    margin-top:5%;
+    margin-bottom: 5%;
+    border-radius: 5px;
+}
+.foto8{
+    width: 35;
+    margin-left:32%;
+    margin-top:5%;
+    margin-bottom: 5%;
+    border-radius: 5px;
+}
+.foto9{
+    width: 35;
+    margin-left:32%;
+    margin-top:5%;
+    margin-bottom: 1%;
+    border-radius: 5px;
+}
+.foto10{
+    width: 15%;
+    height: 15%;
+    margin-left: 39.5%;
+}
+
+.foto11{
+    width: 15%;
+    height: 15%;
+    margin-left: 40%;
+}
+.foto12{
+    width: 15%;
+    height: 15%;
+    margin-left: 40%;
+}
+.foto13{
+    width: 15%;
+    height: 15%;
+    margin-left: 40%;
+}
+.foto14{
+    width: 25%;
+    height: 25%;
+    margin-left: 36%;
+}
+.foto15{
+    width: 4%;
+    height: 4%;
+    border-radius: 10px;
+    margin-left: 45%;
+    margin-top: 5%;
+    padding: 2%;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    margin-bottom: 5%;
+}
+.foto16{
+    width: 35;
+    margin-top:5%;
+    margin-bottom: 1%;
+    border-radius: 5px;
+}
+.foto17{
+    width: 35;
+    margin-top:5%;
+    margin-bottom: 1%;
+    border-radius: 5px;
+}
+.foto18{
+    width: 35;
+    margin-top:5%;
+    margin-bottom: 1%;
+    border-radius: 5px;
+}
+.foto19{
+    width: 35;
+    margin-top:5%;
+    margin-bottom: 1%;
+    border-radius: 5px;
+}
+.foto20{
+    width: 35;
+    margin-top:5%;
+    margin-bottom: 1%;
+    border-radius: 5px;
+}
+.foto21{
+    width: 35;
+    margin-top:5%;
+    margin-bottom: 1%;
+    border-radius: 5px;
+}
+
+
+.foto5:hover{
+    width:33% ;
+    height: 67%;
+}
+.foto6:hover{
+    width:33% ;
+    height: 67%;
+}
+.foto7:hover{
+    width:33% ;
+    height: 67%;
+}
+.foto8:hover{
+    width:33% ;
+    height: 67%;
+}
+.foto9:hover{
+    width:28% ;
+    height: 58%;
+}
+.foto10:hover{
+    width:15.3% ;
+    height: 15.3%;
+}
+.foto11:hover{
+    width:15.3% ;
+    height: 15.3%;
+}
+.foto12:hover{
+    width:15.3% ;
+    height: 15.3%;
+}
+.foto13:hover{
+    width:15.3% ;
+    height: 15.3%;
+}
+.foto14:hover{
+    width: 26%;
+    height: 26%;
+}
+.foto15:hover{
+    width: 4.5%;
+    height: 4.5%;
+}
+.foto16:hover{
+    width: 52px;
+}
+
+.foto17:hover{
+    width: 52px;
+}
+.foto18:hover{
+    width: 52px;
+}
+.foto19:hover{
+    width: 52px;
+}
+.foto20{
+    width: 52px;
+}
+.foto21{
+    width: 52px;
+}
+.foto22{
+    margin-top: 5%;
+    width: 15%;
+    height: 15%;
+    margin-left: 41%;
+    position: static;
+}
+.foto23{
+    width: 15%;
+    height: 15%;
+    margin-left: 41%;
+}
+.foto24{
+    width: 15%;
+    height: 15%;
+    margin-left: 41%;
+}
+.foto25{
+    width: 15%;
+    height: 15%;
+    margin-left: 40%;
+}
+.foto26{
+    width: 15%;
+    height: 15%;
+}
+.foto22:hover{
+    width: 15.5%;
+    height: 15.5%;
+}
+.foto23:hover{
+    width: 15.2%;
+    height: 15.2%;
+}
+.foto24:hover{
+    width: 15.5%;
+    height: 15.5%;
+}
+.foto25:hover{
+    width: 15.5%;
+    height: 15.5%;
+}
+
+.foto3_text {
+    display: none;
+    margin-left: 33.5%;
+    background-color: rgb(42, 41, 41);
+    color:aliceblue;
+    bottom:10%;
+    max-width: 400px;
+    font-size: 18px;
+    font-family: "Arial";
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 5%;
+}
+
+
+.foto4_text {
+    display: none;
+    margin-left: 33.5%;
+    background-color: rgb(42, 41, 41);
+    color:aliceblue;
+    bottom:10%;
+    max-width: 400px;
+    font-size: 18px;
+    font-family: "Arial";
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 5%;
+}
+.foto5_text{
+    display: none;
+    margin-left: 33.5%;
+    background-color: rgb(42, 41, 41);
+    color:aliceblue;
+    bottom:10%;
+    max-width: 400px;
+    font-size: 18px;
+    font-family: "Arial";
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 5%;
+}
+.foto6_text{
+    display: none;
+    margin-left: 33.5%;
+    background-color: rgb(42, 41, 41);
+    color:aliceblue;
+    bottom:10%;
+    max-width: 400px;
+    font-size: 18px;
+    font-family: "Arial";
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 5%;
+}
+.foto7_text{
+    display: none;
+    margin-left: 33.5%;
+    background-color: rgb(42, 41, 41);
+    color:aliceblue;
+    bottom:10%;
+    max-width: 400px;
+    font-size: 18px;
+    font-family: "Arial";
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 5%;
+}
+.foto8_text{
+    display: none;
+    margin-left: 33.5%;
+    background-color: rgb(42, 41, 41);
+    color:aliceblue;
+    bottom:10%;
+    max-width: 400px;
+    font-size: 18px;
+    font-family: "Arial";
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 5%;
+}
+.foto3:hover {
+    width:33.3% ;
+    height: 70%;
+}
+.foto4:hover {
+    width:33% ;
+    height: 67%;}
+
+.video{
+    margin-left: 5%;
+    margin-bottom: 30%;
+}
+
+.botao3{
+    position: absolute;
+    left:90%;
+    width:6%;
+    height: 6%;
+    bottom: 86%;
+    font-family:"stardew";
+    background-color: rgb(206, 188, 88);
+    font-size: 25px;
+    border-radius: 10px;
+    border-color: #28cc43;
+}
+.botao3 a {
+    text-decoration: none;
+    color:white;
+}
+
+.botao3:hover{
+    width:5.5%;
+    height: 5.5%;
+}
+.botao4{
+    position: absolute;
+    left:54.4%;
+    top:39%;
+    width:22.7%;
+    height: 4.7%;
+    background-color: #28cc43;
+    border: none;
+    border-radius: 10px;
+
+}
+.botao4 a {
+    text-decoration: none;
+    color:white;}
+
+.botao4:hover{
+    width:22.5%;
+    height: 4.6%;
+}
+.botao5:hover{
+    width: 16%;
+    height: 25%;
+}

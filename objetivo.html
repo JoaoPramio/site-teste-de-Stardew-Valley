@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stardew Valley</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/png">
+</head>
+
+<body class="body2">
+
+    <header class="header">
+
+        <img src="imagens/Chucklefish_Logo.png" class="titulo_peixe" >
+        <img src="imagens/main_title.png" href="index.html" class="titulo_png">
+        <img src="imagens/concernedApe.gif" class="titulo_gif">
+        <div>
+            <button class="botao3"><a href="index.html">Voltar</a></button>
+        </div>
+    
+        </header>
+    <div>
+        <nav class="nav">
+            <a href="centro.html" class="hrefe">Centro da Comunidade</a>
+            <a href="animais.html" class="href">Animais</a>
+            <a href="cultivo.html" class="href">Lauvouras</a>
+            <a href="npcs.html" class="href">Npcs</a>
+            <a href="feramentas.html" class="href">Ferramentas</a>
+            <a href="eventos.html" class="href">Eventos</a>
+            <a href="conquistas.html" class="href">Conquistas</a>
+            <a href="construções.html" class="href">Carpintaria</a>
+            <a href="objetivo.html" class="href">Perfect</a>
+        </nav>
+    </div>
+
+    <p class="p2" style="min-width: 20%;margin-left:34.8%;padding-left: 8%; background-color: rgb(170, 57, 204);">Perfect<p>
+        <div>
+            <img src="imagens/perfect.png" class="foto15"  onclick="toggleAbout15()">
+            <div class="foto5_text suave" id="foto15_text" style="margin-left: 34%;">
+                <p><a style="color:rgb(170, 57, 204)">100% de Perfeição:</a><br>
+                    A Perfeição é uma pontuação que <a style="color:rgb(170, 57, 204)">mede quanto do 
+                        conteúdo do jogo você completou</a>.
+                     Alcançar a 100% de perfeição desbloqueia conteúdo de final de jogo extra, desbloqueando:
+                      <a style="color:rgb(170, 57, 204)">Cume
+                        da Montanha</a>, <a style="color:rgb(170, 57, 204)">Galinha dourada</a> e ovo dourado,
+                         chapéu especial, interações exclusivas, novos 
+                     pássaros, a <a style="color:rgb(170, 57, 204)">Estátua da verdadeira perfeição</a> e um evento aleatório da Bruxa Dourada.
+                     <br>
+                </p>
+                <p><br> * Para alcançar tal <a style="color:rgb(170, 57, 204)">perfeição</a> você pode: Enviar <u>um de cada item de colheita e Coleta</u>,
+                    encontrar <u>todas as Frutas-estrela</u>, alcancar o <u>nível 10 em cada habilidade</u>,  <u>cozinhar todas as receitas</u>,
+                     <u>pegar todos os peixes</u>( Incluindo peixes lendários), entre muitas outras coisas.</p>
+            </div>
+<script>
+    function toggleAbout15() {
+        const foto15_text = document.getElementById("foto15_text");
+        foto15_text.style.display = foto15_text.style.display === "block" ? "none" : "block"; 
+    }
+</script>
+
+</body>
+</html>

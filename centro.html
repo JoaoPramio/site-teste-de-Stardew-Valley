@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stardew Valley</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/png">
+</head>
+
+<body class="body1">
+
+    <header class="header">
+
+        <img src="imagens/Chucklefish_Logo.png" class="titulo_peixe" >
+        <img src="imagens/main_title.png" href="index.html" class="titulo_png">
+        <img src="imagens/concernedApe.gif" class="titulo_gif">
+        <div>
+            <button class="botao3"><a href="index.html">Voltar</a></button>
+        </div>
+    
+        </header>
+
+    <div>
+        <nav class="nav">
+            <a href="centro.html" class="hrefe">Centro da Comunidade</a>
+            <a href="animais.html" class="href">Animais</a>
+            <a href="cultivo.html" class="href">Lauvouras</a>
+            <a href="npcs.html" class="href">Npcs</a>
+            <a href="feramentas.html" class="href">Ferramentas</a>
+            <a href="eventos.html" class="href">Eventos</a>
+            <a href="conquistas.html" class="href">Conquistas</a>
+            <a href="construções.html" class="href">Carpintaria</a>
+            <a href="objetivo.html" class="href">Perfect</a>
+        </nav>
+    </div>
+    <div>
+        <p class="p2" style="min-width: 20%;margin-left:35.5%;padding-left: 5%;">Centro da Comunidade<p>
+            <div>
+                <img src="centro/centro.png" class="foto9"  onclick="toggleAbout9()" style="margin-left: 32%;background-color: rgb(240, 255, 255,0.5);padding: 2%;">
+            </div>
+        <p class="p3 suave" id="centro_text" style="display: none;">No <u>Centro Comunitário</u>, você vai encontrar algumas criaturas 
+             chamadas <u>Junimos</u> que desaparecem e reaparecem da existência,
+             juntamente com um cartaz brilhante coberto de uma escrita estranha.
+             Uma vez que você tentar ler o cartaz (você não vai entender), 
+             você receberá uma carta do <u>Feiticeiro</u> no dia seguinte e será capaz
+              de entrar em sua casa. Indo lá desencadeia uma cena de corte de
+              acompanhamento em que o feiticeiro fala com você sobre os Junimos.
+               Consumir a poção do Feiticeiro ativa os conjuntos.
+             Você pode então retornar ao Centro Comunitário para ler os cartazes, 
+             compreendê-los, e dar o <u>conjunto de ofertas para os Junimos</u>.</p> </p>
+    </div>
+    <script>
+        function toggleAbout9() {
+            const centro_text = document.getElementById("centro_text");
+            centro_text.style.display = centro_text.style.display === "block" ? "none" : "block"; 
+        }
+    </script>
+
+<h1 class="inverno" style="font-family: stardew;font-size: 50px;color:
+ white;font-weight: 200;margin-left: 35%; padding-left: 5.5%;margin-right: 40%;">Sala de Artesanato</h1>
+
+<img src="centro/sala1.png" class="foto10" onclick="toggleAbout10()">
+
+<div class="foto7_text suave" id="foto10_text">
+    <p><a style="color:rgb(63, 138, 237)">A sala de artesanato:</a><br>
+       Ela terá os primeiros de conjuntos desbloqueados, Ao completar todos
+        os conjuntos desta área, a ponte ao lado da Mina será consertada, dando acesso a <a style="color:rgb(63, 138, 237)">Pedreira</a>.
+        Cada conjunto pedirá <a style="color:rgb(63, 138, 237)">coletaveis</a> encontrados no mapa em todas as quatro estações,
+        além de alguns materiais e itens encontrados na caverna.
+    </p>
+</div>
+
+<script>
+function toggleAbout10() {
+    const foto10_text = document.getElementById("foto10_text");
+    foto10_text.style.display = foto10_text.style.display === "block" ? "none" : "block"; 
+}
+</script>
+
+<h1 class="verao" style="font-family: stardew;font-size: 
+50px;color: white;font-weight: 200;margin-left: 33.5%;">Conjunto Copa</h1>
+
+
+<img src="centro/sala2.png" class="foto11" onclick="toggleAbout11()">
+<div class="foto3_text suave" id="foto11_text">
+    <p><a style="color:rgb(234, 231, 74)">O conjunto Copa: </a><br>
+        Você desbloqueia os conjuntos copa após liberar seu primeiro conjunto de sala de artesanato.
+         Após completar tudo, você desbloqueará a <a style="color:rgb(234, 231, 74)">Estufa</a> no
+          qual poderá plantar <a style="color:rgb(234, 231, 74)">qualquer lavoura</a> independentemente da estação que está. Os conjuntos necessitarão de :
+          <a style="color:rgb(234, 231, 74)">Plantações de todas as estações, produtos animais, frutas e geleias</a>.  
+    </p>
+</div>
+
+<script>
+function toggleAbout11() {
+    const foto11_text = document.getElementById("foto11_text");
+    foto11_text.style.display = foto11_text.style.display === "block" ? "none" : "block"; 
+}
+</script>
+
+
+<h1 class="outono" style="font-family: stardew;font-size: 50px;color:
+ white;font-weight: 200;margin-left: 35%; padding-left: 4%;margin-right: 40%;background-color:rgb(170, 57, 204);">Conjunto dos Peixes</h1>
+<img src="centro/sala3.png" class="foto12" onclick="toggleAbout12()">
+<div class="foto5_text suave" id="foto12_text">
+    <p><a style="color:rgb(170, 57, 204)">Conjunto dos Peixes:</a><br>
+        Ao completar todos os conjuntos do Aquário, a <a style="color:rgb(170, 57, 204)">pedra brilhante</a> localizada
+         no lado esquerdo da entrada da Mina será removida. 
+        Willy também lhe dará uma <a style="color:rgb(170, 57, 204)">Peneira de cobre</a>, que pode 
+        ser usada para coletar minérios e outros itens de dentro da água. Para
+        completar os conjuntos será necessário: <a style="color:rgb(170, 57, 204)">Peixes do mar (dia e noite),
+             peixes de rio,
+            coletáveis da praia e peixes de lago.</a>
+    </p>
+</div>
+
+<script>
+function toggleAbout12() {
+    const foto12_text = document.getElementById("foto12_text");
+    foto12_text.style.display = foto12_text.style.display === "block" ? "none" : "block"; 
+}
+</script>
+
+<h1 class="outono" style="font-family: stardew;font-size: 50px;color:
+ white;font-weight: 200;margin-left: 35%; padding-left: 6%;margin-right: 40%;">Sala da Caldeira</h1>
+<img src="centro/sala4.png" class="foto13" onclick="toggleAbout13()">
+<div class="foto5_text suave" id="foto13_text">
+    <p><a style="color:rgb(241, 161, 49)">Sala da caldeira:</a><br>
+       Este conjunto desbloqueia o <a style="color:rgb(241, 161, 49)">Carrinho da Caverna</a>, permitindo que certas áreas sejam acessadas mais rapidamente. 
+       Serão necessários: <a style="color:rgb(241, 161, 49)">Barras de Metais, minérios e drops de monstros</a>. 
+    </p>
+</div>
+
+<script>
+function toggleAbout13() {
+    const foto5_text = document.getElementById("foto13_text");
+    foto13_text.style.display = foto13_text.style.display === "block" ? "none" : "block"; 
+}
+</script>
+
+<p class="p2" style="min-width: 20%;margin-left:33%;padding-left: 11%;margin-right: 90%;">Cofre<p>
+<img src="centro/sala5.png" class="foto14" onclick="toggleAbout5()" style="margin-bottom:5% ;margin-left:35%">
+<div class="foto5_text suave" id="foto14_text">
+    <p><a style="color:rgb(241, 215, 49);">Cofre:</a><br>
+        O Cofre aparece após completar quatro conjuntos. Aperte o botão de "Comprar" para comprar os conjuntos.
+        Ao comprar todos os conjuntos desta área por um total de <a style="color:rgb(241, 215, 49)">42 500 ouros</a>,
+         o <a style="color:rgb(241, 215, 49)">Ponto de Ônibus</a> será reparado,
+         e acesso ao <a style="color:rgb(241, 215, 49)">Deserto de Calico</a> será possível.
+    </p>
+</div>
+
+<script>
+function toggleAbout5() {
+    const foto14_text = document.getElementById("foto14_text");
+    foto14_text.style.display = foto14_text.style.display === "block" ? "none" : "block"; 
+}
+</script>
+
+
+
+</body>
+</html>
